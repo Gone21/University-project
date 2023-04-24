@@ -1,0 +1,245 @@
+
+/* Navigation Bar */
+
+.navbar {
+
+    width: 100%;
+    height: 90px;
+    background: rgba(4, 121, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+.navbar img {
+    margin: 0 25px 0 100px;
+    width: 90px;
+    position: absolute;
+}
+
+
+.navbar-brand {
+    margin: 0 35px 0 250px;
+    font-family: "Montserrat-Black";
+    width: 20%;
+    position: relative;
+}
+    
+
+
+.navbar-nav  {
+    padding-right: 100px;
+}
+.navbar-nav a{
+    color: white;
+    
+}
+.nav-link {
+    font-size: 40px;
+}
+
+.collapse {
+    align-items: left;
+    
+}
+.collapse ul{
+    list-style: none;
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+.collapse ul li{
+    position: relative;
+    
+}
+.collapse ul li::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: #000000;
+    bottom: 1px;
+    left: 0;
+    transition: .5s all ease-in-out;
+    
+    
+    
+}
+
+
+.collapse ul li a{
+    color: #fff;
+    
+    font-family: lato;
+    font-size: 16px;
+    transition: 0.3s all ease-in-out;
+}
+.collapse ul li a:hover{
+    color: #000000;
+}
+
+
+
+
+
+/* HOME */
+
+.menu{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.info{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+
+
+
+.info h1{
+    color: #fff;
+    font-family: lato;
+    font-size: 60px;
+}
+.info p{
+    color: #fff;
+    font-size: 20px;
+    font-family: arial;
+    margin: 30px 0px;
+}
+
+.btn button{
+    padding: 15px 45px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+    
+    
+}
+
+.btn button::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: rgb(4, 121, 0);
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: .5s all ease-in-out;
+}
+.btn button:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+/* ABOUT US */
+
+.menu-au{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(img/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info-about{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+
+
+
+.about-us1 {
+    background-color: rgba(4, 121, 0, 0.8);
+    padding: 25px;
+    margin: 0 20%;
+    font-family: "Montserrat";
+    font-size: large;
+}
+
+.about-us2 {
+    background-color: rgba(4, 121, 0, 0.8);
+    padding: 25px;
+    margin: 20px 20% 0 20%;
+    font-family: "Montserrat";
+    font-size: large;
+}
+
+
+/* COURSES */
+
+.menu-cs{
+
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(63, 160, 59, 0.8);
+    background-size: cover;
+    background-position: center;
+}
+
+.info-courses{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* tables */
+
+
+table {
+    margin: 1% 35%;
+    border: 5px solid black;
+    font-family: "Montserrat";
+    
+}
+
+
+
+/* CONTACT */
+
+.menu-con {
+    background-color: rgba(63, 160, 59, 0.8);
+    margin: 0;
+}
+.desc {
+    
+    margin: 10px 30%;
+    text-align: center;
+    
+}
+
+.desc em {
+    font-size: large;
+}
